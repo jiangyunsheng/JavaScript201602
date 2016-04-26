@@ -10,12 +10,14 @@
         this.divList = this.bannerInner.getElementsByTagName("div");
         this.imgList = this.bannerInner.getElementsByTagName("img");
         this.oLis = this.bannerTip.getElementsByTagName("li");
+
         //->之前的全局变量也应该变为自己的私有的属性
         this.jsonData = null;
         this.interval = interval || 3000;
         this.autoTimer = null;
         this.step = 0;
         this.ajaxURL = ajaxURL;
+
         return this.init();
     }
 
@@ -155,6 +157,7 @@
             this.mouseEvent();
             this.tipEvent();
             this.leftRight();
+
             return this;
         }
     };
