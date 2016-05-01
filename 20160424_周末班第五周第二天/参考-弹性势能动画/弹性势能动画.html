@@ -64,7 +64,6 @@
         curT = curT <= minT ? minT : (curT >= maxT ? maxT : curT);
         this.style.left = curL + "px";
         this.style.top = curT + "px";
-
         //->计算我们水平方向移动的速度
         //在浏览器最小反应时间内触发一次move,我们都记录一下当前盒子的位置,让当前的位置-上一次记录的位置=当前最后一次的偏移
         if (!this.pre) {
