@@ -87,7 +87,6 @@ a, a:hover, a:active, a:target, a:visited {
     width: 30px;
     height: 45px;
     background-image: url("../img/pre.png");
-
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
