@@ -44,6 +44,6 @@ var server = http.createServer(function (request, response) {
     response.writeHead(404, {'content-type': 'text/html'});
     response.end(fs.readFileSync("./404.html", "utf8"));
 });
-server.listen(80, function () {
+server.listen(8080, function () {
     console.log("服务启动成功!");
 });
